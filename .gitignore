@@ -1,0 +1,5 @@
+node_modules/
+*.log
+memory.json
+proposals.json
+reviews/

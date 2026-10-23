@@ -1,0 +1,20 @@
+{
+  "name": "telugu-creator-toolkit",
+  "version": "0.1.0",
+  "description": "Telugu creator toolkit: source-bound caption correction, spelling memory, reel motion styles, story B-roll and thumbnail templates, with human approval gates.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Chadalavada Bapiraju (360 LIFE)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test packages/captions/test/test-captions.mjs packages/captions/test/test-decisions.mjs packages/reels/test/test-reel-motion.mjs packages/reels/test/test-reel-punchy.mjs"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "remotion": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true },
+    "remotion": { "optional": true }
+  }
+}

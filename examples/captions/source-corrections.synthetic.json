@@ -1,0 +1,12 @@
+{
+  "_note": "Synthetic source-bound overlay for tests (pairs with native-report.synthetic.json). Not owner decisions.",
+  "schema": "bapi.source-bound-word-corrections/1",
+  "sourceSha256": "0000000000000000000000000000000000000000000000000000000000000001",
+  "approvalEvidence": "synthetic test fixture",
+  "edits": [
+    { "sourceSeconds": 1.86, "toleranceSeconds": 0.1, "expected": ["టెస్టు"], "replacement": "పరీక్ష", "approval": "user" },
+    { "sourceSeconds": 4.56, "toleranceSeconds": 0.1, "expected": ["ఒక"], "replacement": "ఒకే", "approval": "user" },
+    { "sourceSeconds": 8.56, "toleranceSeconds": 0.1, "expected": ["తప్పలు"], "replacement": "తప్పులు", "approval": "user" },
+    { "sourceSeconds": 9.86, "toleranceSeconds": 0.1, "expected": ["సరిచేద్దాం"], "replacement": "సరిదిద్దుదాం", "approval": "user" }
+  ]
+}
